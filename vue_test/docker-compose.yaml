@@ -5,7 +5,7 @@ services:
     image: video-express:latest 
     build:
       context: ./express
-      dodckerfile: Dockerfile.express
+      dockerfile: Dockerfile.express
     ports:
       - 3000:3000
     volumes:
